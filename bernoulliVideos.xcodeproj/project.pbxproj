@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48BC58E1B011EB30034ECBE /* HistoricoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BC58D1B011EB30034ECBE /* HistoricoCell.m */; };
 		F492A6021AFBA6BB0087ADFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A6011AFBA6BB0087ADFF /* main.m */; };
 		F492A6051AFBA6BB0087ADFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A6041AFBA6BB0087ADFF /* AppDelegate.m */; };
 		F492A6081AFBA6BB0087ADFF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A6071AFBA6BB0087ADFF /* FirstViewController.m */; };
@@ -15,6 +16,22 @@
 		F492A6101AFBA6BC0087ADFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F492A60F1AFBA6BC0087ADFF /* Images.xcassets */; };
 		F492A6131AFBA6BC0087ADFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F492A6111AFBA6BC0087ADFF /* LaunchScreen.xib */; };
 		F492A61F1AFBA6BC0087ADFF /* bernoulliVideosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A61E1AFBA6BC0087ADFF /* bernoulliVideosTests.m */; };
+		F4A7F64D1AFCCD9200B3469C /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6401AFCCD9200B3469C /* favorites.png */; };
+		F4A7F64E1AFCCD9200B3469C /* favorites2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6411AFCCD9200B3469C /* favorites2.png */; };
+		F4A7F64F1AFCCD9200B3469C /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6421AFCCD9200B3469C /* history.png */; };
+		F4A7F6501AFCCD9200B3469C /* history2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6431AFCCD9200B3469C /* history2.png */; };
+		F4A7F6511AFCCD9200B3469C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6441AFCCD9200B3469C /* home.png */; };
+		F4A7F6521AFCCD9200B3469C /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6451AFCCD9200B3469C /* home2.png */; };
+		F4A7F6531AFCCD9200B3469C /* listdelete.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6461AFCCD9200B3469C /* listdelete.png */; };
+		F4A7F6541AFCCD9200B3469C /* listfavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6471AFCCD9200B3469C /* listfavorite.png */; };
+		F4A7F6551AFCCD9200B3469C /* listfavorite2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6481AFCCD9200B3469C /* listfavorite2.png */; };
+		F4A7F6561AFCCD9200B3469C /* listplay.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F6491AFCCD9200B3469C /* listplay.png */; };
+		F4A7F6571AFCCD9200B3469C /* logobernoulli.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F64A1AFCCD9200B3469C /* logobernoulli.png */; };
+		F4A7F6581AFCCD9200B3469C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F64B1AFCCD9200B3469C /* play.png */; };
+		F4A7F6591AFCCD9200B3469C /* teste.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F64C1AFCCD9200B3469C /* teste.png */; };
+		F4A7F65B1AFCEB4500B3469C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A7F65A1AFCEB4500B3469C /* libsqlite3.dylib */; };
+		F4A7F65E1AFCF15600B3469C /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A7F65D1AFCF15600B3469C /* DBManager.m */; };
+		F4A7F6601AFD089100B3469C /* bernoullidb.sql in Resources */ = {isa = PBXBuildFile; fileRef = F4A7F65F1AFD089100B3469C /* bernoullidb.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F48BC58C1B011EB30034ECBE /* HistoricoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricoCell.h; sourceTree = "<group>"; };
+		F48BC58D1B011EB30034ECBE /* HistoricoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricoCell.m; sourceTree = "<group>"; };
 		F492A5FC1AFBA6BB0087ADFF /* bernoulliVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bernoulliVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F492A6001AFBA6BB0087ADFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F492A6011AFBA6BB0087ADFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +62,23 @@
 		F492A6181AFBA6BC0087ADFF /* bernoulliVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bernoulliVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F492A61D1AFBA6BC0087ADFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F492A61E1AFBA6BC0087ADFF /* bernoulliVideosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bernoulliVideosTests.m; sourceTree = "<group>"; };
+		F4A7F6401AFCCD9200B3469C /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
+		F4A7F6411AFCCD9200B3469C /* favorites2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites2.png; sourceTree = "<group>"; };
+		F4A7F6421AFCCD9200B3469C /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		F4A7F6431AFCCD9200B3469C /* history2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history2.png; sourceTree = "<group>"; };
+		F4A7F6441AFCCD9200B3469C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		F4A7F6451AFCCD9200B3469C /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
+		F4A7F6461AFCCD9200B3469C /* listdelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listdelete.png; sourceTree = "<group>"; };
+		F4A7F6471AFCCD9200B3469C /* listfavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listfavorite.png; sourceTree = "<group>"; };
+		F4A7F6481AFCCD9200B3469C /* listfavorite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listfavorite2.png; sourceTree = "<group>"; };
+		F4A7F6491AFCCD9200B3469C /* listplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listplay.png; sourceTree = "<group>"; };
+		F4A7F64A1AFCCD9200B3469C /* logobernoulli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logobernoulli.png; sourceTree = "<group>"; };
+		F4A7F64B1AFCCD9200B3469C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F4A7F64C1AFCCD9200B3469C /* teste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teste.png; sourceTree = "<group>"; };
+		F4A7F65A1AFCEB4500B3469C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F4A7F65C1AFCF15600B3469C /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		F4A7F65D1AFCF15600B3469C /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		F4A7F65F1AFD089100B3469C /* bernoullidb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = bernoullidb.sql; path = ../../../bernoullidb.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A7F65B1AFCEB4500B3469C /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +103,7 @@
 		F492A5F31AFBA6BB0087ADFF = {
 			isa = PBXGroup;
 			children = (
+				F4A7F65A1AFCEB4500B3469C /* libsqlite3.dylib */,
 				F492A5FE1AFBA6BB0087ADFF /* bernoulliVideos */,
 				F492A61B1AFBA6BC0087ADFF /* bernoulliVideosTests */,
 				F492A5FD1AFBA6BB0087ADFF /* Products */,
@@ -84,6 +122,8 @@
 		F492A5FE1AFBA6BB0087ADFF /* bernoulliVideos */ = {
 			isa = PBXGroup;
 			children = (
+				F4A7F65F1AFD089100B3469C /* bernoullidb.sql */,
+				F4A7F63F1AFCCC7C00B3469C /* Images */,
 				F492A6031AFBA6BB0087ADFF /* AppDelegate.h */,
 				F492A6041AFBA6BB0087ADFF /* AppDelegate.m */,
 				F492A6061AFBA6BB0087ADFF /* FirstViewController.h */,
@@ -94,6 +134,10 @@
 				F492A60F1AFBA6BC0087ADFF /* Images.xcassets */,
 				F492A6111AFBA6BC0087ADFF /* LaunchScreen.xib */,
 				F492A5FF1AFBA6BB0087ADFF /* Supporting Files */,
+				F4A7F65C1AFCF15600B3469C /* DBManager.h */,
+				F4A7F65D1AFCF15600B3469C /* DBManager.m */,
+				F48BC58C1B011EB30034ECBE /* HistoricoCell.h */,
+				F48BC58D1B011EB30034ECBE /* HistoricoCell.m */,
 			);
 			path = bernoulliVideos;
 			sourceTree = "<group>";
@@ -122,6 +166,26 @@
 				F492A61D1AFBA6BC0087ADFF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4A7F63F1AFCCC7C00B3469C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4A7F6401AFCCD9200B3469C /* favorites.png */,
+				F4A7F6411AFCCD9200B3469C /* favorites2.png */,
+				F4A7F6421AFCCD9200B3469C /* history.png */,
+				F4A7F6431AFCCD9200B3469C /* history2.png */,
+				F4A7F6441AFCCD9200B3469C /* home.png */,
+				F4A7F6451AFCCD9200B3469C /* home2.png */,
+				F4A7F6461AFCCD9200B3469C /* listdelete.png */,
+				F4A7F6471AFCCD9200B3469C /* listfavorite.png */,
+				F4A7F6481AFCCD9200B3469C /* listfavorite2.png */,
+				F4A7F6491AFCCD9200B3469C /* listplay.png */,
+				F4A7F64A1AFCCD9200B3469C /* logobernoulli.png */,
+				F4A7F64B1AFCCD9200B3469C /* play.png */,
+				F4A7F64C1AFCCD9200B3469C /* teste.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +268,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A7F6561AFCCD9200B3469C /* listplay.png in Resources */,
+				F4A7F6591AFCCD9200B3469C /* teste.png in Resources */,
+				F4A7F64F1AFCCD9200B3469C /* history.png in Resources */,
+				F4A7F6521AFCCD9200B3469C /* home2.png in Resources */,
+				F4A7F6571AFCCD9200B3469C /* logobernoulli.png in Resources */,
 				F492A60E1AFBA6BB0087ADFF /* Main.storyboard in Resources */,
 				F492A6131AFBA6BC0087ADFF /* LaunchScreen.xib in Resources */,
+				F4A7F6501AFCCD9200B3469C /* history2.png in Resources */,
+				F4A7F6511AFCCD9200B3469C /* home.png in Resources */,
+				F4A7F6551AFCCD9200B3469C /* listfavorite2.png in Resources */,
 				F492A6101AFBA6BC0087ADFF /* Images.xcassets in Resources */,
+				F4A7F64D1AFCCD9200B3469C /* favorites.png in Resources */,
+				F4A7F6601AFD089100B3469C /* bernoullidb.sql in Resources */,
+				F4A7F6581AFCCD9200B3469C /* play.png in Resources */,
+				F4A7F6531AFCCD9200B3469C /* listdelete.png in Resources */,
+				F4A7F64E1AFCCD9200B3469C /* favorites2.png in Resources */,
+				F4A7F6541AFCCD9200B3469C /* listfavorite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48BC58E1B011EB30034ECBE /* HistoricoCell.m in Sources */,
 				F492A60B1AFBA6BB0087ADFF /* SecondViewController.m in Sources */,
 				F492A6051AFBA6BB0087ADFF /* AppDelegate.m in Sources */,
 				F492A6081AFBA6BB0087ADFF /* FirstViewController.m in Sources */,
 				F492A6021AFBA6BB0087ADFF /* main.m in Sources */,
+				F4A7F65E1AFCF15600B3469C /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +504,7 @@
 				F492A6241AFBA6BC0087ADFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F492A6251AFBA6BC0087ADFF /* Build configuration list for PBXNativeTarget "bernoulliVideosTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +513,7 @@
 				F492A6271AFBA6BC0087ADFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

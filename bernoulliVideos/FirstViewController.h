@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
 
+@interface FirstViewController : UIViewController <UITextFieldDelegate>
+
+@property(nonatomic, retain) NSMutableData *conWebData;
+@property(nonatomic, retain) NSMutableString *soapResults;
+@property(nonatomic, retain) NSXMLParser *xmlParser;
+@property NSMutableData   *webData;
 
 @end
 
